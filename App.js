@@ -47,14 +47,14 @@
    return (
   
          <View>
-         <Text style={styles.display}>{click}</Text>
+         {/* <Text style={styles.display}>{click}</Text> */}
          <Button title="Click Here" onPress={()=>handleClick()} />
         {open && <Login data ="This is Login Screen"/>}
          </View>
         
    );
  };
- 
+  
  const styles = StyleSheet.create({
    display:{
      display:"flex",
